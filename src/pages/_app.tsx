@@ -13,6 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="description" content="Open source inviting alternative to GitHub sponsors" />
         <meta name="theme-color" content="#000000" />
         <meta name="author" content="JustFossa" />
+        <title>JustFossa - Sponsor</title>
       </Head>
       <div className="min-h-screen w-full dark:bg-[#0d1117] flex flex-col items-center">
         <div className="w-[80%] md:w-[45rem]">
