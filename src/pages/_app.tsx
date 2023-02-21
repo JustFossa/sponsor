@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="author" content="JustFossa" />
         <title>JustFossa</title>
       </Head>
-      <div className="min-h-screen w-full dark:bg-[#0d1117] flex flex-col items-center">
+      <div className="min-h-screen w-full dark:bg-[#0d1117] flex flex-col items-center dark">
         <div className="w-[80%] md:w-[45rem]">
           <AnimatePresence mode="wait">
             <Component {...pageProps} />
