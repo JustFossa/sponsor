@@ -48,6 +48,7 @@ export default function Home({data, repos}: any) {
           </div>
           <button
             className="w-20 h-10 ml-5 bg-darker border-dark border rounded-md text-text hover:bg-darker2 transition-all ease-in-out duration-200"
+            onClick={() => window.location.replace(`https://paypal.me/justfossaexch/${amount}`)}
           >
             Donate
           </button>
